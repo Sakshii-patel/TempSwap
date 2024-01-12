@@ -1,0 +1,126 @@
+#convert,
+#reset {
+  background-color: green;
+  border-color: green;
+}
+
+#clear:hover,
+#convert:hover {
+  background-color: rgb(230, 249, 231);
+  border: 2px solid green;
+  color: green;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: green;
+}
+
+input {
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: black;
+  font-family: cursive, sans-serif;
+}
+
+::-webkit-input-placeholder {
+  color: #585656;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ccc;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ccc;
+}
+
+:-ms-input-placeholder {
+  color: #ccc;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  color: #545454;
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  /* margin-top: 20px;*/
+}
+
+.container,
+.container1 {
+  display: inline-block;
+  /* or use display: flex; */
+  vertical-align: top;
+  /* Align elements from the top */
+  margin: 10px;
+}
+
+label {
+  font-size: 25px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#convert,
+#clear {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*
+.bcontainer{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 3px solid green;
+    
+}*/
+.main {
+
+  box-sizing: border-box;
+  width: 800px;
+  height: 370px;
+  border: 3px solid rgb(12, 84, 49);
+  border-radius: 10px;
+  margin: 150px 70px 70px 340px;
+  padding: 40px 20px 20px 30px;
+  background-color: white;
+}
+
+
+.container,
+.container1 {
+  margin-left: 50px;
+}
+
+body {
+  background-image: url('leaves.png');
+
+}
